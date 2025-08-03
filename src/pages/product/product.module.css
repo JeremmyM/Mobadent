@@ -1,1 +1,37 @@
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+.image {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0a0a0a;
+  margin-top: 1rem;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+.meta {
+  margin-top: 1rem;
+  color: #555;
+}
 
