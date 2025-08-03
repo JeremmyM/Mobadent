@@ -81,6 +81,7 @@
         "tags": ["woman"]
     },
     {
+        "productCode": "TSHIRT008",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
@@ -90,6 +91,7 @@
 
     },
     {
+        "productCode": "TSHIRT009",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 21,
         "alt": "relaxed t shirt woman",
@@ -97,6 +99,7 @@
         "tags": ["woman"]
     },
     {
+        "productCode": "TSHIRT010",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
@@ -104,6 +107,7 @@
         "tags": ["woman"]
     },
     {
+        "productCode": "TSHIRT011",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
@@ -113,6 +117,7 @@
 
     },
     {
+        "productCode": "TSHIRT012",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 21,
         "alt": "relaxed t shirt woman",
