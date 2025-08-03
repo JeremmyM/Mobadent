@@ -13,24 +13,24 @@ import { isAuth } from '../../helpers/general';
 
 const FavoritesPage = (props) => {
   const sampleFavorite1 = {
-    color: 'Anthracite Melange',
-    size: 'XS',
+    color: 'Azul Cobalto',
+    size: 'Pequeño',
     img: '/products/shirt1.jpg',
-    alt: 'favorite 1',
+    alt: 'favorito 1',
   };
 
   const sampleFavorite2 = {
-    color: 'Purple Pale',
-    size: 'XS',
+    color: 'Lila Pastel',
+    size: 'Pequeño',
     img: '/products/shirt2.jpg',
-    alt: 'favorite 2',
+    alt: 'favorito 2',
   };
 
   const sampleFavorite3 = {
-    color: 'Moss Green',
-    size: 'S',
+    color: 'Verde Musgo',
+    size: 'Mediano',
     img: '/products/shirt3.jpg',
-    alt: 'favorite 3',
+    alt: 'favorito 3',
   };
 
   if (isAuth() === false) {
@@ -45,11 +45,11 @@ const FavoritesPage = (props) => {
         <Container size={'large'}>
           <Breadcrumbs
             crumbs={[
-              { link: '/', label: 'Home' },
-              { link: '/account/favorites', label: 'Favorites' },
+              { link: '/', label: 'Inicio' },
+              { link: '/account/favorites', label: 'Favoritos' },
             ]}
           />
-          <h1>Favorites</h1>
+          <h1>Favoritos</h1>
           <div className={styles.favoriteListContainer}>
             <FavoriteCard
               showConfirmDialog={() => setShowDelete(true)}
@@ -72,17 +72,17 @@ const FavoritesPage = (props) => {
       </div>
       <Modal visible={showDelete} close={() => setShowDelete(false)}>
         <div className={styles.confirmDeleteContainer}>
-          <h4>Remove from Favorites?</h4>
+          <h4>¿Eliminar de Favoritos?</h4>
           <p>
-            Are you sure you want to remove this from your favorites? You cannot
-            undo this action once you press <strong>'Delete'</strong>
+            ¿Estás seguro de que deseas eliminar este producto de tus favoritos?
+            Esta acción no se puede deshacer una vez presiones <strong>'Eliminar'</strong>.
           </p>
           <div className={styles.actionContainer}>
             <Button onClick={() => setShowDelete(false)} level={'primary'}>
-              Delete
+              Eliminar
             </Button>
             <Button onClick={() => setShowDelete(false)} level={'secondary'}>
-              Cancel
+              Cancelar
             </Button>
           </div>
         </div>
