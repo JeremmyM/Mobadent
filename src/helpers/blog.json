@@ -1,66 +1,66 @@
 [
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long establishable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long estab the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "Loproducers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral tish flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long et a reader by the readable t is a long et a reader by the rea",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-bs and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    }
-  ]
+  {
+    "title": "¿Cómo elegir guantes dentales de calidad?",
+    "category": "odontología",
+    "alt": "consejo guantes dentales",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/sample",
+    "excerpt": "Conoce las características que debes buscar en los guantes que usas en el consultorio para garantizar seguridad, comodidad y buen rendimiento."
+  },
+  {
+    "title": "Consejos para mantener tu stock de insumos al día",
+    "category": "gestión",
+    "alt": "stock dental",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/sample",
+    "excerpt": "Evita quedarte sin materiales en medio de una cita. Aquí te damos tips para mantener tu inventario organizado y siempre abastecido."
+  },
+  {
+    "title": "Errores comunes al comprar materiales odontológicos",
+    "category": "compras",
+    "alt": "errores compra",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/sample",
+    "excerpt": "Aprende cuáles son los errores más frecuentes al elegir insumos y cómo evitarlos para optimizar tus recursos."
+  },
+  {
+    "title": "¿Por qué comprar a negocios locales como Mobadent?",
+    "category": "comunidad",
+    "alt": "apoyo local",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/sample",
+    "excerpt": "Al adquirir tus insumos con negocios familiares, apoyas a la economía local, obtienes atención personalizada y mayor flexibilidad."
+  },
+  {
+    "title": "Ventajas de comprar con crédito y entregas a domicilio",
+    "category": "beneficios",
+    "alt": "entrega domicilio",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/sample",
+    "excerpt": "Descubre cómo el sistema de pagos en abonos y las entregas en consultorio facilitan tu día a día como odontólogo."
+  },
+  {
+    "title": "Top 5 productos más vendidos en Mobadent",
+    "category": "productos",
+    "alt": "productos populares",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/sample",
+    "excerpt": "Te contamos cuáles son los insumos dentales favoritos de nuestros clientes y por qué."
+  },
+  {
+    "title": "Cómo empezar tu propio consultorio dental",
+    "category": "emprendimiento",
+    "alt": "consultorio dental",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/sample",
+    "excerpt": "Una guía rápida para jóvenes odontólogos que están por abrir su primera práctica. Incluye consejos de compras, organización y atención al cliente."
+  },
+  {
+    "title": "Mobadent: una historia de familia y servicio",
+    "category": "nosotros",
+    "alt": "historia mobadent",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/sample",
+    "excerpt": "Conoce cómo nació Mobadent, el negocio familiar que apoya a odontólogos con insumos confiables, crédito accesible y entregas a domicilio."
+  }
+]
