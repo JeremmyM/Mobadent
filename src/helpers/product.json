@@ -6,9 +6,7 @@
     "price": 9.50,
     "alt": "Caja de guantes de látex talla M",
     "image": "/products/pdp1.jpeg",
-    "colorOptions": [
-      { "color": "#FFFFFF", "title": "Blanco" }
-    ],
+    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
     "sizeOptions": ["100 unidades"],
     "wishlist": true,
     "tags": ["guantes", "protección"],
@@ -18,7 +16,7 @@
       { "image": "/products/pdp3.jpeg", "alt": "guantes detalle 3" },
       { "image": "/products/pdp4.jpeg", "alt": "guantes detalle 4" }
     ],
-    "description": "Guantes de látex no estériles para procedimientos odontológicos. Caja de 100 unidades. Alta resistencia y sensibilidad táctil."
+    "description": "Guantes de látex no estériles para procedimientos odontológicos. Alta resistencia y sensibilidad táctil."
   },
   {
     "productCode": "JERI001",
@@ -27,9 +25,7 @@
     "price": 5.20,
     "alt": "Jeringas estériles 3ml",
     "image": "/products/shirt1.jpg",
-    "colorOptions": [
-      { "color": "#CCCCCC", "title": "Transparente" }
-    ],
+    "colorOptions": [{ "color": "#CCCCCC", "title": "Transparente" }],
     "sizeOptions": ["100 unidades"],
     "wishlist": true,
     "tags": ["jeringas", "descartables"],
@@ -39,7 +35,7 @@
       { "image": "/products/pdp3.jpeg", "alt": "jeringas detalle 3" },
       { "image": "/products/pdp4.jpeg", "alt": "jeringas detalle 4" }
     ],
-    "description": "Jeringas de 3ml con aguja desmontable, estériles y de un solo uso. Ideales para anestesia local."
+    "description": "Jeringas de 3ml con aguja desmontable. Estériles y de un solo uso. Ideales para anestesia local."
   },
   {
     "productCode": "BABM001",
@@ -48,7 +44,14 @@
     "price": 3.75,
     "alt": "Babero dental azul",
     "image": "/products/shirt2.jpg",
-    "tags": ["babetes", "protección"]
+    "colorOptions": [{ "color": "#0000FF", "title": "Azul" }],
+    "sizeOptions": ["50 unidades"],
+    "wishlist": true,
+    "tags": ["babetes", "protección"],
+    "gallery": [
+      { "image": "/products/pdp1.jpeg", "alt": "babero detalle 1" }
+    ],
+    "description": "Babetes desechables absorbentes con capa impermeable. Ideales para procedimientos odontológicos."
   },
   {
     "productCode": "ASPIR002",
@@ -57,7 +60,12 @@
     "price": 4.25,
     "alt": "Aspiradores desechables",
     "image": "/products/shirt3.jpg",
-    "tags": ["aspiradores", "instrumental"]
+    "colorOptions": [{ "color": "#E0E0E0", "title": "Gris claro" }],
+    "sizeOptions": ["25 unidades"],
+    "wishlist": true,
+    "tags": ["aspiradores", "instrumental"],
+    "gallery": [{ "image": "/products/pdp2.jpeg", "alt": "aspirador detalle" }],
+    "description": "Aspiradores de saliva desechables. Flexibles y de uso individual para procedimientos clínicos."
   },
   {
     "productCode": "ESPE001",
@@ -66,8 +74,12 @@
     "price": 13.90,
     "alt": "Espejo dental metálico",
     "image": "/products/woman1.jpeg",
+    "colorOptions": [{ "color": "#AAAAAA", "title": "Metálico" }],
+    "sizeOptions": ["unidad"],
+    "wishlist": true,
     "tags": ["instrumental"],
-    "meta": "+ 2 tipos"
+    "gallery": [{ "image": "/products/pdp3.jpeg", "alt": "espejo dental" }],
+    "description": "Espejo dental metálico de alta calidad con mango ergonómico. Resistente a esterilización en autoclave."
   },
   {
     "productCode": "CUBRE002",
@@ -76,7 +88,12 @@
     "price": 5.90,
     "alt": "Mascarilla dental triple capa",
     "image": "/products/woman2.jpeg",
-    "tags": ["mascarillas"]
+    "colorOptions": [{ "color": "#99CCFF", "title": "Celeste" }],
+    "sizeOptions": ["50 unidades"],
+    "wishlist": true,
+    "tags": ["mascarillas"],
+    "gallery": [{ "image": "/products/pdp1.jpeg", "alt": "mascarilla detalle" }],
+    "description": "Mascarillas quirúrgicas de tres capas con ajuste nasal y bandas elásticas. Filtración superior al 95%."
   },
   {
     "productCode": "ALGOD001",
@@ -85,8 +102,12 @@
     "price": 7.50,
     "alt": "Rollo de algodón dental",
     "image": "/products/woman3.jpeg",
+    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
+    "sizeOptions": ["500g"],
+    "wishlist": true,
     "tags": ["consumibles"],
-    "meta": "rollo de 500g"
+    "gallery": [{ "image": "/products/pdp4.jpeg", "alt": "algodón dental" }],
+    "description": "Algodón odontológico en rollo, altamente absorbente. Ideal para aislamiento y control de humedad."
   },
   {
     "productCode": "PORTA004",
@@ -95,7 +116,12 @@
     "price": 15.90,
     "alt": "Porta agujas quirúrgico",
     "image": "/products/woman4.jpeg",
-    "tags": ["instrumental"]
+    "colorOptions": [{ "color": "#999999", "title": "Acero inoxidable" }],
+    "sizeOptions": ["unidad"],
+    "wishlist": true,
+    "tags": ["instrumental"],
+    "gallery": [{ "image": "/products/pdp2.jpeg", "alt": "porta agujas" }],
+    "description": "Instrumento quirúrgico de acero inoxidable para sujetar agujas durante la sutura. Esterilizable."
   },
   {
     "productCode": "HILO005",
@@ -104,8 +130,13 @@
     "price": 14.90,
     "alt": "Sutura de seda",
     "image": "/products/woman5.jpeg",
+    "originalPrice": 18.50,
+    "colorOptions": [{ "color": "#000000", "title": "Negro" }],
+    "sizeOptions": ["12 unidades"],
+    "wishlist": true,
     "tags": ["suturas"],
-    "originalPrice": 18.50
+    "gallery": [{ "image": "/products/pdp3.jpeg", "alt": "hilo seda" }],
+    "description": "Sutura quirúrgica de seda negra, no absorbible. Esterilizada y lista para su uso."
   },
   {
     "productCode": "TORUN006",
@@ -114,7 +145,12 @@
     "price": 6.50,
     "alt": "Torundas para uso quirúrgico",
     "image": "/products/woman6.jpeg",
-    "tags": ["consumibles"]
+    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
+    "sizeOptions": ["250 unidades"],
+    "wishlist": true,
+    "tags": ["consumibles"],
+    "gallery": [{ "image": "/products/pdp4.jpeg", "alt": "torunda" }],
+    "description": "Torundas de algodón estériles de alta absorción. Usadas en cirugía y procedimientos menores."
   },
   {
     "productCode": "TOALL007",
@@ -123,17 +159,27 @@
     "price": 10.50,
     "alt": "Toallas absorbentes para dentista",
     "image": "/products/woman3.jpeg",
-    "tags": ["protección"]
+    "colorOptions": [{ "color": "#D1E0FF", "title": "Azul claro" }],
+    "sizeOptions": ["50 unidades"],
+    "wishlist": true,
+    "tags": ["protección"],
+    "gallery": [{ "image": "/products/pdp1.jpeg", "alt": "toalla absorbente" }],
+    "description": "Toallas odontológicas absorbentes de un solo uso. Suaves, resistentes y cómodas para el paciente."
   },
   {
     "productCode": "BIST008",
     "name": "Bisturí mango #3 + hojas #15",
     "vendor": "Mobadent",
     "price": 8.90,
+    "originalPrice": 12.00,
     "alt": "Bisturí dental con hojas",
     "image": "/products/woman2.jpeg",
+    "colorOptions": [{ "color": "#888888", "title": "Metálico" }],
+    "sizeOptions": ["1 mango + 5 hojas"],
+    "wishlist": true,
     "tags": ["instrumental"],
-    "originalPrice": 12.00
+    "gallery": [{ "image": "/products/pdp2.jpeg", "alt": "bisturí" }],
+    "description": "Bisturí quirúrgico con mango reutilizable y hojas descartables #15. Corte preciso y seguro."
   },
   {
     "productCode": "ANEST009",
@@ -142,6 +188,11 @@
     "price": 21.00,
     "alt": "Ampolla de lidocaína dental",
     "image": "/products/woman1.jpeg",
-    "tags": ["anestesia"]
+    "colorOptions": [{ "color": "#FFFFFF", "title": "Transparente" }],
+    "sizeOptions": ["50 ampollas"],
+    "wishlist": true,
+    "tags": ["anestesia"],
+    "gallery": [{ "image": "/products/pdp1.jpeg", "alt": "anestesia dental" }],
+    "description": "Anestésico local de uso odontológico. Lidocaína al 2% en ampollas. Efecto rápido y seguro."
   }
 ]
