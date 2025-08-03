@@ -19,7 +19,10 @@
 }
 
 .header {
-    cursor: pointer; display: flex; align-items: center; justify-content: center;
+  height: 64px; /* o 72px si haces el logo más grande */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headerMessageContainer {
