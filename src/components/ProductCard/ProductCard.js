@@ -20,7 +20,8 @@ const ProductCard = (props) => {
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/sample');
+    localStorage.setItem('selectedProduct', JSON.stringify(props));
+    navigate('/product');
   };
 
   const handleQuickView = (e) => {
@@ -40,7 +41,11 @@ const ProductCard = (props) => {
         onClick={() => handleRouteToProduct()}
         role={'presentation'}
       >
-        <img style={{ height: `${height}px` }} src={toOptimizedImage(image)} alt={imageAlt}></img>
+        <img
+          style={{ height: `${height}px` }}
+          src={toOptimizedImage(image)}
+          alt={imageAlt}
+        />
         <div
           className={styles.bagContainer}
           role={'presentation'}
@@ -59,7 +64,7 @@ const ProductCard = (props) => {
               isWishlist === true ? styles.show : styles.hide
             }`}
           >
-            <Icon symbol={'heartFill'}></Icon>
+            <Icon symbol={'heartFill'} />
           </div>
         </div>
       </div>
@@ -69,11 +74,11 @@ const ProductCard = (props) => {
           <span
             className={`${originalPrice !== undefined ? styles.salePrice : ''}`}
           >
-            <CurrencyFormatter amount={price}></CurrencyFormatter>
+            <CurrencyFormatter amount={price} />
           </span>
           {originalPrice && (
             <span className={styles.originalPrice}>
-              <CurrencyFormatter amount={originalPrice}></CurrencyFormatter>
+              <CurrencyFormatter amount={originalPrice} />
             </span>
           )}
         </div>
