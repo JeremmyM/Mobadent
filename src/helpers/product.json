@@ -1,141 +1,147 @@
 [
-    {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
-        "price": 75,
-        "alt": "lambswool crew neck jumper",
-        "image": "/products/pdp1.jpeg",
-        "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
-        ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
-        "wishlist": true,
-        "tags": ["sample"],
-        "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
-        ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
-    },
-    {
-        "productCode": "TSHIRT001",
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
-        "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
-        ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
-        "wishlist": true,
-        "tags": ["shirt", "men"],
-        "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
-        ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."         
-    },
-    {
-        "productCode": "TSHIRT002",
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "productCode": "TSHIRT003",
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "productCode": "TSHIRT004",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "productCode": "TSHIRT005",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "productCode": "TSHIRT006",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "productCode": "TSHIRT007",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "productCode": "TSHIRT008",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "productCode": "TSHIRT009",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "productCode": "TSHIRT010",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "productCode": "TSHIRT011",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "productCode": "TSHIRT012",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
-    }
-  ]
+  {
+    "productCode": "GLOV100M",
+    "name": "Guantes de Látex Talla M",
+    "vendor": "Mobadent",
+    "price": 9.50,
+    "alt": "Caja de guantes de látex talla M",
+    "image": "/products/pdp1.jpeg",
+    "colorOptions": [
+      { "color": "#FFFFFF", "title": "Blanco" }
+    ],
+    "sizeOptions": ["100 unidades"],
+    "wishlist": true,
+    "tags": ["guantes", "protección"],
+    "gallery": [
+      { "image": "/products/pdp1.jpeg", "alt": "guantes detalle 1" },
+      { "image": "/products/pdp2.jpeg", "alt": "guantes detalle 2" },
+      { "image": "/products/pdp3.jpeg", "alt": "guantes detalle 3" },
+      { "image": "/products/pdp4.jpeg", "alt": "guantes detalle 4" }
+    ],
+    "description": "Guantes de látex no estériles para procedimientos odontológicos. Caja de 100 unidades. Alta resistencia y sensibilidad táctil."
+  },
+  {
+    "productCode": "JERI001",
+    "name": "Jeringas desechables 3ml",
+    "vendor": "Mobadent",
+    "price": 5.20,
+    "alt": "Jeringas estériles 3ml",
+    "image": "/products/shirt1.jpg",
+    "colorOptions": [
+      { "color": "#CCCCCC", "title": "Transparente" }
+    ],
+    "sizeOptions": ["100 unidades"],
+    "wishlist": true,
+    "tags": ["jeringas", "descartables"],
+    "gallery": [
+      { "image": "/products/pdp1.jpeg", "alt": "jeringas detalle 1" },
+      { "image": "/products/pdp2.jpeg", "alt": "jeringas detalle 2" },
+      { "image": "/products/pdp3.jpeg", "alt": "jeringas detalle 3" },
+      { "image": "/products/pdp4.jpeg", "alt": "jeringas detalle 4" }
+    ],
+    "description": "Jeringas de 3ml con aguja desmontable, estériles y de un solo uso. Ideales para anestesia local."
+  },
+  {
+    "productCode": "BABM001",
+    "name": "Babetes dentales azul",
+    "vendor": "Mobadent",
+    "price": 3.75,
+    "alt": "Babero dental azul",
+    "image": "/products/shirt2.jpg",
+    "tags": ["babetes", "protección"]
+  },
+  {
+    "productCode": "ASPIR002",
+    "name": "Aspiradores quirúrgicos desechables",
+    "vendor": "Mobadent",
+    "price": 4.25,
+    "alt": "Aspiradores desechables",
+    "image": "/products/shirt3.jpg",
+    "tags": ["aspiradores", "instrumental"]
+  },
+  {
+    "productCode": "ESPE001",
+    "name": "Espejos dentales metálicos",
+    "vendor": "Mobadent",
+    "price": 13.90,
+    "alt": "Espejo dental metálico",
+    "image": "/products/woman1.jpeg",
+    "tags": ["instrumental"],
+    "meta": "+ 2 tipos"
+  },
+  {
+    "productCode": "CUBRE002",
+    "name": "Cubrebocas triple capa",
+    "vendor": "Mobadent",
+    "price": 5.90,
+    "alt": "Mascarilla dental triple capa",
+    "image": "/products/woman2.jpeg",
+    "tags": ["mascarillas"]
+  },
+  {
+    "productCode": "ALGOD001",
+    "name": "Algodón en rollo",
+    "vendor": "Mobadent",
+    "price": 7.50,
+    "alt": "Rollo de algodón dental",
+    "image": "/products/woman3.jpeg",
+    "tags": ["consumibles"],
+    "meta": "rollo de 500g"
+  },
+  {
+    "productCode": "PORTA004",
+    "name": "Porta agujas Mayo-Hegar",
+    "vendor": "Mobadent",
+    "price": 15.90,
+    "alt": "Porta agujas quirúrgico",
+    "image": "/products/woman4.jpeg",
+    "tags": ["instrumental"]
+  },
+  {
+    "productCode": "HILO005",
+    "name": "Hilo de sutura Seda 3/0",
+    "vendor": "Mobadent",
+    "price": 14.90,
+    "alt": "Sutura de seda",
+    "image": "/products/woman5.jpeg",
+    "tags": ["suturas"],
+    "originalPrice": 18.50
+  },
+  {
+    "productCode": "TORUN006",
+    "name": "Torundas de algodón estériles",
+    "vendor": "Mobadent",
+    "price": 6.50,
+    "alt": "Torundas para uso quirúrgico",
+    "image": "/products/woman6.jpeg",
+    "tags": ["consumibles"]
+  },
+  {
+    "productCode": "TOALL007",
+    "name": "Toallas descartables absorbentes",
+    "vendor": "Mobadent",
+    "price": 10.50,
+    "alt": "Toallas absorbentes para dentista",
+    "image": "/products/woman3.jpeg",
+    "tags": ["protección"]
+  },
+  {
+    "productCode": "BIST008",
+    "name": "Bisturí mango #3 + hojas #15",
+    "vendor": "Mobadent",
+    "price": 8.90,
+    "alt": "Bisturí dental con hojas",
+    "image": "/products/woman2.jpeg",
+    "tags": ["instrumental"],
+    "originalPrice": 12.00
+  },
+  {
+    "productCode": "ANEST009",
+    "name": "Anestesia lidocaína 2%",
+    "vendor": "Mobadent",
+    "price": 21.00,
+    "alt": "Ampolla de lidocaína dental",
+    "image": "/products/woman1.jpeg",
+    "tags": ["anestesia"]
+  }
+]
