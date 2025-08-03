@@ -15,21 +15,21 @@ import Button from '../../components/Button';
 
 const AddressPage = (props) => {
   const address1 = {
-    name: 'John Doe',
-    address: '123 Steam Mill Lane, Haymerket',
-    state: 'NSW',
-    postal: '2000',
-    country: 'Australia',
-    company: '',
+    name: 'Clínica Dental Quito',
+    address: 'Av. Amazonas N34-76 y Mariana de Jesús',
+    state: 'Pichincha',
+    postal: '170521',
+    country: 'Ecuador',
+    company: 'Mobadent',
   };
 
   const address2 = {
-    name: 'John Doe',
-    address: '123 Steam Mill Lane, Haymerket',
-    state: 'NSW',
-    postal: '2000',
-    country: 'Australia',
-    company: 'Matter Design',
+    name: 'Odontología Integral Cuenca',
+    address: 'Calle Larga 10-45 y Padre Aguirre',
+    state: 'Azuay',
+    postal: '010203',
+    country: 'Ecuador',
+    company: 'Mobadent',
   };
 
   const [addressList] = useState([address1, address2]);
@@ -45,52 +45,49 @@ const AddressPage = (props) => {
       <AccountLayout>
         <Breadcrumbs
           crumbs={[
-            { link: '/', label: 'Home' },
-            { link: '/account', label: 'Account' },
-            { link: '/account/address', label: 'Addresses' },
+            { link: '/', label: 'Inicio' },
+            { link: '/account', label: 'Cuenta' },
+            { link: '/account/address', label: 'Direcciones' },
           ]}
         />
-        <h1>Addresses</h1>
+        <h1>Direcciones guardadas</h1>
 
-        {showForm === false && (
+        {!showForm && (
           <div className={styles.addressListContainer}>
-            {addressList.map((address) => {
-              return (
-                <AddressCard
-                  showForm={() => setShowForm(true)}
-                  showDeleteForm={() => setShowDelete(true)}
-                  {...address}
-                />
-              );
-            })}
+            {addressList.map((address, index) => (
+              <AddressCard
+                key={index}
+                showForm={() => setShowForm(true)}
+                showDeleteForm={() => setShowDelete(true)}
+                {...address}
+              />
+            ))}
             <div
               className={styles.addCard}
               role={'presentation'}
               onClick={() => setShowForm(true)}
             >
-              <Icon symbol={'plus'}></Icon>
-              <span>new address</span>
+              <Icon symbol={'plus'} />
+              <span>Nueva dirección</span>
             </div>
           </div>
         )}
 
-        {showForm === true && (
-          <AddressForm closeForm={() => setShowForm(false)} />
-        )}
+        {showForm && <AddressForm closeForm={() => setShowForm(false)} />}
       </AccountLayout>
+
       <Modal visible={showDelete} close={() => setShowDelete(false)}>
         <div className={styles.confirmDeleteContainer}>
-          <h4>Delete Address?</h4>
+          <h4>¿Eliminar dirección?</h4>
           <p>
-            Are you sure you want to delete this address? You cannot undo this
-            action once you press <strong>'Delete'</strong>
+            ¿Estás seguro de que deseas eliminar esta dirección? Esta acción no se puede deshacer.
           </p>
           <div className={styles.actionContainer}>
             <Button onClick={() => setShowDelete(false)} level={'primary'}>
-              Delete
+              Eliminar
             </Button>
             <Button onClick={() => setShowDelete(false)} level={'secondary'}>
-              Cancel
+              Cancelar
             </Button>
           </div>
         </div>
