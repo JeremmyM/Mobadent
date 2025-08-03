@@ -1,162 +1,141 @@
 [
-  {
-    "productCode": "GLOV100M",
-    "name": "Guantes de Látex Talla M",
-    "vendor": "Mobadent",
-    "price": 9.5,
-    "alt": "Caja de guantes de látex talla M",
-    "image": "/products/pdp1.jpeg",
-    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
-    "sizeOptions": ["100 unidades"],
-    "wishlist": true,
-    "tags": ["guantes", "protección"],
-    "gallery": [
-      { "image": "/products/pdp1.jpeg", "alt": "guantes detalle 1" }
-    ],
-    "description": "Guantes de látex no estériles para procedimientos odontológicos. Caja de 100 unidades. Alta resistencia y sensibilidad táctil."
-  },
-  {
-    "productCode": "JERI001",
-    "name": "Jeringas desechables 3ml",
-    "vendor": "Mobadent",
-    "price": 5.2,
-    "alt": "Jeringas estériles 3ml",
-    "image": "/products/shirt1.jpg",
-    "colorOptions": [{ "color": "#CCCCCC", "title": "Transparente" }],
-    "sizeOptions": ["100 unidades"],
-    "wishlist": true,
-    "tags": ["jeringas", "descartables"],
-    "gallery": [
-      { "image": "/products/shirt1.jpg", "alt": "jeringas detalle" }
-    ],
-    "description": "Jeringas de 3ml con aguja desmontable, estériles y de un solo uso. Ideales para anestesia local."
-  },
-  {
-    "productCode": "BABM001",
-    "name": "Babetes dentales azul",
-    "vendor": "Mobadent",
-    "price": 3.75,
-    "alt": "Babero dental azul",
-    "image": "/products/shirt2.jpg",
-    "colorOptions": [{ "color": "#0000FF", "title": "Azul" }],
-    "sizeOptions": ["unidad"],
-    "wishlist": false,
-    "tags": ["babetes", "protección"],
-    "gallery": [
-      { "image": "/products/shirt2.jpg", "alt": "babero azul" }
-    ],
-    "description": "Babero desechable impermeable azul para procedimientos odontológicos."
-  },
-  {
-    "productCode": "ASPIR002",
-    "name": "Aspiradores quirúrgicos desechables",
-    "vendor": "Mobadent",
-    "price": 4.25,
-    "alt": "Aspiradores desechables",
-    "image": "/products/shirt3.jpg",
-    "colorOptions": [{ "color": "#999999", "title": "Gris Claro" }],
-    "sizeOptions": ["paquete de 25"],
-    "wishlist": false,
-    "tags": ["aspiradores", "instrumental"],
-    "gallery": [
-      { "image": "/products/shirt3.jpg", "alt": "aspiradores" }
-    ],
-    "description": "Aspiradores quirúrgicos flexibles, de un solo uso, con punta redondeada para mayor comodidad."
-  },
-  {
-    "productCode": "ESPE001",
-    "name": "Espejos dentales metálicos",
-    "vendor": "Mobadent",
-    "price": 13.9,
-    "alt": "Espejo dental metálico",
-    "image": "/products/woman1.jpeg",
-    "colorOptions": [{ "color": "#C0C0C0", "title": "Metálico" }],
-    "sizeOptions": ["unidad"],
-    "wishlist": false,
-    "tags": ["instrumental"],
-    "gallery": [
-      { "image": "/products/woman1.jpeg", "alt": "espejo dental" }
-    ],
-    "description": "Espejo dental con mango metálico, resistente y esterilizable."
-  },
-  {
-    "productCode": "CUBRE002",
-    "name": "Cubrebocas triple capa",
-    "vendor": "Mobadent",
-    "price": 5.9,
-    "alt": "Mascarilla dental triple capa",
-    "image": "/products/woman2.jpeg",
-    "colorOptions": [{ "color": "#ADD8E6", "title": "Celeste" }],
-    "sizeOptions": ["caja x 50"],
-    "wishlist": true,
-    "tags": ["mascarillas"],
-    "gallery": [
-      { "image": "/products/woman2.jpeg", "alt": "mascarilla triple capa" }
-    ],
-    "description": "Cubrebocas con ajuste nasal, hipoalergénico, de triple capa para mayor protección."
-  },
-  {
-    "productCode": "ALGOD001",
-    "name": "Algodón en rollo",
-    "vendor": "Mobadent",
-    "price": 7.5,
-    "alt": "Rollo de algodón dental",
-    "image": "/products/woman3.jpeg",
-    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
-    "sizeOptions": ["rollo de 500g"],
-    "wishlist": false,
-    "tags": ["consumibles"],
-    "gallery": [
-      { "image": "/products/woman3.jpeg", "alt": "algodón dental" }
-    ],
-    "description": "Algodón absorbente en rollo para uso odontológico. No estéril."
-  },
-  {
-    "productCode": "PORTA004",
-    "name": "Porta agujas Mayo-Hegar",
-    "vendor": "Mobadent",
-    "price": 15.9,
-    "alt": "Porta agujas quirúrgico",
-    "image": "/products/woman4.jpeg",
-    "colorOptions": [{ "color": "#C0C0C0", "title": "Acero" }],
-    "sizeOptions": ["unidad"],
-    "wishlist": false,
-    "tags": ["instrumental"],
-    "gallery": [
-      { "image": "/products/woman4.jpeg", "alt": "porta agujas" }
-    ],
-    "description": "Porta agujas quirúrgico en acero inoxidable tipo Mayo-Hegar."
-  },
-  {
-    "productCode": "HILO005",
-    "name": "Hilo de sutura Seda 3/0",
-    "vendor": "Mobadent",
-    "price": 14.9,
-    "alt": "Sutura de seda",
-    "image": "/products/woman5.jpeg",
-    "colorOptions": [{ "color": "#000000", "title": "Negro" }],
-    "sizeOptions": ["caja x 12"],
-    "wishlist": true,
-    "tags": ["suturas"],
-    "gallery": [
-      { "image": "/products/woman5.jpeg", "alt": "hilo de sutura" }
-    ],
-    "description": "Hilo de sutura de seda negra 3/0 con aguja, estéril. Caja de 12 unidades."
-  },
-  {
-    "productCode": "TORUN006",
-    "name": "Torundas de algodón estériles",
-    "vendor": "Mobadent",
-    "price": 6.5,
-    "alt": "Torundas para uso quirúrgico",
-    "image": "/products/woman6.jpeg",
-    "colorOptions": [{ "color": "#FFFFFF", "title": "Blanco" }],
-    "sizeOptions": ["bolsa x 100"],
-    "wishlist": false,
-    "tags": ["consumibles"],
-    "gallery": [
-      { "image": "/products/woman6.jpeg", "alt": "torundas estériles" }
-    ],
-    "description": "Torundas estériles de algodón para absorción durante procedimientos quirúrgicos."
-  }
-]
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "Lambswool Crew Neck Jumper",
+        "vendor": "Sunspel",
+        "price": 75,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/pdp1.jpeg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["sample"],
+        "gallery": [
+            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "TSHIRT001",
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 1",
+        "image": "/products/shirt1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["shirt", "men"],
+        "gallery": [
+            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."         
+    },
+    {
+        "productCode": "TSHIRT002",
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 2",
+        "image": "/products/shirt2.jpg",
+        "tags": ["shirt", "men"]
+    },
+    {
+        "productCode": "TSHIRT003",
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 3",
+        "image": "/products/shirt3.jpg",
+        "tags": ["shirt", "men"]
+    },
+    {
+        "productCode": "TSHIRT004",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 13.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman1.jpeg",
+        "tags": ["woman"],
+        "meta": "+ 2 colors"
+    },
+    {
+        "productCode": "TSHIRT005",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman2.jpeg",
+        "tags": ["woman"]
+    },    
+    {
+        "productCode": "TSHIRT006",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 13.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman3.jpeg",
+        "tags": ["woman"],
+        "meta": "+ 2 colors"
+    },
+    {
+        "productCode": "TSHIRT007",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman4.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "productCode": "TSHIRT008",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman5.jpeg",
+        "tags": ["woman"],
+        "originalPrice": 31.50
+
+    },
+    {
+        "productCode": "TSHIRT009",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 21,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman6.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "productCode": "TSHIRT010",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman3.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "productCode": "TSHIRT011",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman2.jpeg",
+        "tags": ["woman"],
+        "originalPrice": 31.50
+
+    },
+    {
+        "productCode": "TSHIRT012",
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 21,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman1.jpeg",
+        "tags": ["woman"]
+    }
+  ]
