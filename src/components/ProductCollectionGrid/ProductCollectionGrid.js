@@ -23,7 +23,6 @@ const ProductCollectionGrid = (props) => {
         title={'Blanqueamiento'}
         text={'VER PRODUCTOS'}
         link={'/shop/blanqueamiento'}
-        style={{ display: 'flex', justifyContent: 'center' }}
       />
       <ProductCollection
         image={'/collections/collection4.png'}
