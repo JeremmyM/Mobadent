@@ -27,11 +27,11 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Entrega gratuita en Quito y promociones exclusivas para odontólogos';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Guantes de látex',
+    'Posiciones de ortodoncia',
+    'Materiales restaurativos',
   ];
 
   const handleHover = (navObject) => {
@@ -51,12 +51,10 @@ const Header = (prop) => {
     setShowSearch(false);
   };
 
-  // disable active menu when show menu is hidden
   useEffect(() => {
     if (showMenu === false) setActiveMenu(false);
   }, [showMenu]);
 
-  // hide menu onscroll
   useEffect(() => {
     const onScroll = () => {
       setShowMenu(false);
@@ -68,14 +66,12 @@ const Header = (prop) => {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  //listen for show search and delay trigger of focus due to CSS visiblity property
   useEffect(() => {
     if (showSearch === true) {
       setTimeout(() => {
         searchRef.current.focus();
       }, 250);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showSearch]);
 
   return (
@@ -84,7 +80,6 @@ const Header = (prop) => {
         <span>{bannerMessage}</span>
       </div>
       <Container size={'large'} spacing={'min'}>
-        {/* header container */}
         <div className={styles.header}>
           <div className={styles.linkContainer}>
             <nav
@@ -111,7 +106,6 @@ const Header = (prop) => {
             role={'presentation'}
             onClick={() => {
               setMobileMenu(!mobileMenu);
-              // setDepth(0);
             }}
             className={styles.burgerIcon}
           >
@@ -120,7 +114,7 @@ const Header = (prop) => {
           <Brand />
           <div className={styles.actionContainers}>
             <button
-              aria-label="Search"
+              aria-label="Buscar"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
                 setShowSearch(!showSearch);
@@ -129,21 +123,21 @@ const Header = (prop) => {
               <Icon symbol={'search'}></Icon>
             </button>
             <Link
-              aria-label="Favorites"
+              aria-label="Favoritos"
               href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
             </Link>
             <Link
-              aria-label="Orders"
+              aria-label="Cuenta"
               href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
             </Link>
             <button
-              aria-label="Cart"
+              aria-label="Carrito"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
                 setShowMiniCart(true);
@@ -161,13 +155,12 @@ const Header = (prop) => {
           </div>
         </div>
 
-        {/* search container */}
         <div
           className={`${styles.searchContainer} ${
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>¿Qué estás buscando?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}
@@ -205,7 +198,6 @@ const Header = (prop) => {
         </div>
       </Container>
 
-      {/* menu container */}
       <div
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
@@ -219,12 +211,10 @@ const Header = (prop) => {
         </Container>
       </div>
 
-      {/* minicart container */}
       <Drawer visible={showMiniCart} close={() => setShowMiniCart(false)}>
         <MiniCart />
       </Drawer>
 
-      {/* mobile menu */}
       <div className={styles.mobileMenuContainer}>
         <Drawer
           hideCross
