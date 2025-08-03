@@ -20,7 +20,7 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
-          title={`Historias que inspiran\ny consejos útiles para tu práctica`}
+          title={`Ideas para tu consulta`}
           ctaLink={'leer historia'}
           ctaTo={'/blog/sample'}
           header={'blog Mobadent'}
