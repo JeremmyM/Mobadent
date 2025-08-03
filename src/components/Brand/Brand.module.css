@@ -6,7 +6,7 @@
 }
 
 .logoImage {
-  height: 60px; /* prueba también con 56px o 60px */
+  height: 100px; /* prueba también con 56px o 60px */
   max-height: 100%;
   display: block;
   object-fit: contain;
