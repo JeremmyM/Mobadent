@@ -31,7 +31,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "productCode": "TSHIRT002"
+        "productCode": "TSHIRT002",
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 2",
@@ -39,7 +39,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "productCode": "TSHIRT003"
+        "productCode": "TSHIRT003",
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 3",
@@ -47,7 +47,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "productCode": "TSHIRT004"
+        "productCode": "TSHIRT004",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
@@ -56,7 +56,7 @@
         "meta": "+ 2 colors"
     },
     {
-        "productCode": "TSHIRT005"
+        "productCode": "TSHIRT005",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
@@ -64,7 +64,7 @@
         "tags": ["woman"]
     },    
     {
-        "productCode": "TSHIRT006"
+        "productCode": "TSHIRT006",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
@@ -73,7 +73,7 @@
         "meta": "+ 2 colors"
     },
     {
-        "productCode": "TSHIRT007"
+        "productCode": "TSHIRT007",
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
