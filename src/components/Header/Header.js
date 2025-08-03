@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Entrega gratuita en Quito y promociones exclusivas para odontólogos';
+  const bannerMessage = 'Entrega gratuita en Santo Domingo y promociones exclusivas para odontólogos';
   const searchSuggestions = [
     'Guantes de látex',
     'Posiciones de ortodoncia',
