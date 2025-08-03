@@ -20,10 +20,10 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
+          title={`Historias que inspiran\ny consejos útiles para tu práctica`}
+          ctaLink={'leer historia'}
           ctaTo={'/blog/sample'}
-          header={'design'}
+          header={'blog Mobadent'}
         />
 
         <div className={styles.navContainer}>
@@ -31,31 +31,31 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            All Posts
+            Todos los artículos
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Design
+            Casos reales
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Productos destacados
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Interview
+            Consejos clínicos
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            News
+            Novedades Mobadent
           </ThemeLink>
         </div>
 
