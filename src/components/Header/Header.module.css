@@ -19,7 +19,7 @@
 }
 
 .header {
-  height: 50px; /* o 72px si haces el logo más grande */
+  height: 100px; /* o 72px si haces el logo más grande */
   display: flex;
   align-items: center;
   justify-content: space-between;
