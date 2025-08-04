@@ -1,11 +1,10 @@
 .root {
-    width: 100%;
+    width: 0 auto;
     margin: 0 auto;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-    place-items: center;
 }
 
 @media (max-width: 800px) {
