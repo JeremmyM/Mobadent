@@ -71,8 +71,9 @@ const Footer = (prop) => {
               <div className={styles.newsLetterContent}>
                 <span className={styles.linkTitle}>Newsletter</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                  ¡Obtén un 15% de descuento en tu primera compra! Además 
+                  sé el primero en enterarte de ofertas, lanzamientos de 
+                  nuevos productos y promociones exclusivas de Mobadent.
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -137,10 +138,10 @@ const Footer = (prop) => {
           <div className={styles.contentBottom}>
             <div className={styles.settings}>
               <Dropdown
-                label={'Country/Region'}
+                label={'Pais'}
                 optionList={Config.currencyList}
               />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
+              <Dropdown label={'Idioma'} optionList={Config.languageList} />
             </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
