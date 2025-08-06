@@ -72,7 +72,7 @@ const ShopV2Page = (props) => {
             </div>
             <div>
               <div className={styles.metaContainer}>
-                <span className={`standardSpan`}>476 items</span>
+                <span className={`standardSpan`}>{data.length} items</span>
               </div>
               <ProductCardGrid height={'440px'} data={data}></ProductCardGrid>
             </div>
