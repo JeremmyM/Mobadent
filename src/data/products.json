@@ -1,9 +1,9 @@
 [
   {
-    "id": "1",
+    "productCode": "1",
     "name": "Material Odontológico A",
     "price": 25.50,
-    "category": "Instrumentos",
+    "vendor": "Instrumentos",
     "image": "/images/product1.jpg",
     "alt": "Imagen de Material Odontológico A",
     "meta": "Alta calidad para odontología",
