@@ -78,7 +78,7 @@ const ShopV2Page = (props) => {
             </div>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>6 of 10</span>
             <Button fullWidth level={'secondary'} onClick={() => setVisibleCount(visibleCount + 9)}>
               MAS
             </Button>
