@@ -10,14 +10,13 @@
     "originalPrice": 30.00
   },
   {
-    "id": "2",
+    "productCode": "2",
     "name": "Material Odontológico B",
     "price": 15.00,
-    "category": "Consumibles",
+    "vendor": "Consumibles",
     "image": "/images/product2.jpg",
     "alt": "Imagen de Material Odontológico B",
     "meta": "Ideal para clínicas dentales"
   }
-  // agrega todos tus productos aquí
 ]
 
