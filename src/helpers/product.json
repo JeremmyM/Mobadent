@@ -71,9 +71,10 @@
     },
     {
         "productCode": "TSHIRT005",
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
+        "name": "Opalescence™ Boost™",
+        "vendor": "Ultradent",
+        "price": 50,
+        "alt": "Boost",
         "image": "/products/woman2.jpeg",
         "tags": ["woman"]
     },    
