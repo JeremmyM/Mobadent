@@ -37,17 +37,17 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Inicio' },
-                { link: '/', label: 'Woman' },
-                { label: 'Sweaters' },
+                { link: '/', label: 'Mobadent' },
+                { label: 'subcategoria' },
               ]}
             />
           </div>
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`MOBADENT`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Productos de calidad'
           }
         />
         <Container size={'large'} spacing={'min'}>
