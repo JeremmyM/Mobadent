@@ -13,10 +13,11 @@ import ProductCardGrid from '../components/ProductCardGrid';
 import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
 import Config from '../config.json';
+import realProducts from '../data/products.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(6, 'woman');
+  const data = realProducts;
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
