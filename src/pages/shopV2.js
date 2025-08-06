@@ -37,9 +37,9 @@ const ShopV2Page = (props) => {
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman`}
+          name={`MOBADENT`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Productos de Calidad'
           }
         />
         <Container size={'large'} spacing={'min'}>
