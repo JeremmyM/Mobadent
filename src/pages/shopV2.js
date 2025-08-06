@@ -23,9 +23,33 @@ const ShopV2Page = (props) => {
 
   const filterTick = (e, categoryIndex, labelIndex) => {
     const filterStateCopy = [...filterState];
-    filterStateCopy[categoryIndex].items[labelIndex].value = !e.target.value;
+    filterStateCopy[categoryIndex].items[labelIndex].value = e.target.checked;
     setFilterState(filterStateCopy);
   };
+
+    const filteredProducts = useMemo(() => {
+    // Por cada categoría de filtro, se recogen los filtros activos (checked = true)
+    // Luego el producto debe coincidir con al menos un filtro activo de cada categoría (AND entre categorías)
+
+    return realProducts.filter((product) => {
+      return filterState.every((categoryFilter) => {
+        const activeFilters = categoryFilter.items
+          .filter((item) => item.value)
+          .map((item) => item.name.toLowerCase());
+
+        if (activeFilters.length === 0) {
+          // Si no hay filtros activos en esta categoría, no filtra
+          return true;
+        }
+
+        // Aquí asumo que la propiedad del producto que filtras es el category o alguna propiedad similar
+        // Puedes adaptar esta línea según tu estructura de producto y filtros
+        // Ejemplo: si los filtros son por categoría de producto
+        return activeFilters.includes(product[categoryFilter.category.toLowerCase()]);
+      });
+    });
+  }, [filterState]);
+
 
   return (
     <Layout>
