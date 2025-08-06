@@ -14,8 +14,8 @@ const AttributeGrid = (props) => {
       />
       <Attribute
         icon={'cycle'}
-        title={'devoluciones'}
-        subtitle={'devoluciones hasta 30 dias'}
+        title={'Devoluciones'}
+        subtitle={'Devoluciones hasta 30 dias'}
       />
       <Attribute
         icon={'creditcard'}
